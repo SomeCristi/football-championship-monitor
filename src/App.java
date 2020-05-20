@@ -2,6 +2,8 @@ import java.util.*;
 
 public class App {
   public static void main(String[] args) {
+		AdvertismentsThread t = new AdvertismentsThread();
+		t.start();
     Championship championship = Championship.getInstance();
     Scanner scanner = new Scanner(System.in);
     String command;
